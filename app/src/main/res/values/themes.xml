@@ -1,0 +1,27 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Islami" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/gold</item>
+        <item name="colorPrimaryVariant">@color/gold_2</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/gold</item>
+        <item name="colorSecondaryVariant">@color/gold_2</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <style name="Theme.Islami" parent="Base.Theme.Islami" />
+
+    <style name="toolbarTextStyle">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="font">@font/main_bold</item>
+    </style>
+
+    <style name="title_regular">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/black_title</item>
+        <item name="font">@font/main_regular</item>
+    </style>
+</resources>
