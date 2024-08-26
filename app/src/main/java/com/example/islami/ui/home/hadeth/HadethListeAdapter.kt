@@ -28,6 +28,15 @@ class HadethListeAdapter(val hadethList: List<Hadeth>) :
 
         if (position == hadethList.size - 1)
             holder.binding.separtor.visibility = View.GONE
+        if (onItemClickListener != null)
+            holder.binding.root.setOnClickListener {
+                onItemClickListener?.onOtemClick(position, hadeth = hadethList[position])
+            }
+    }
 
+    var onItemClickListener: OnItemClickListener? = null
+
+    fun interface OnItemClickListener {
+        fun onOtemClick(position: Int, hadeth: Hadeth)
     }
 }

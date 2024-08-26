@@ -10,6 +10,11 @@
           <theme>@style/Theme.Islami</theme>
         </config>
       </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_hadeth_details.xml">
+        <config>
+          <theme>@style/Theme.Islami</theme>
+        </config>
+      </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml">
         <config>
           <theme>@style/Theme.Islami</theme>
@@ -26,6 +31,11 @@
         </config>
       </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/contact_home.xml">
+        <config>
+          <theme>@style/Theme.Islami</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/content_hadeth_details.xml">
         <config>
           <theme>@style/Theme.Islami</theme>
         </config>
@@ -77,14 +87,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="424f49a8-c381-42c2-800b-1fc1d5a40e22" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/ahadeth .txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/islami/ui/home/hadeth/Hadeth.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/islami/ui/home/hadeth/HadethListeAdapter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_hadeth.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/islami/ui/hadethDeatails/HadethDetailsActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_hadeth_details.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_hadeth_details.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/islami/ui/home/hadeth/Hadeth.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/islami/ui/home/hadeth/Hadeth.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/islami/ui/home/hadeth/HadethFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/islami/ui/home/hadeth/HadethFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_hadeth.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_hadeth.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_quran.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_quran.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/islami/ui/home/hadeth/HadethListeAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/islami/ui/home/hadeth/HadethListeAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,9 +155,9 @@
       <list>
         <option value="resourceFile" />
         <option value="valueResourceFile" />
-        <option value="layoutResourceFile" />
         <option value="Kotlin Data Class" />
         <option value="Kotlin Class" />
+        <option value="layoutResourceFile" />
       </list>
     </option>
   </component>
@@ -210,7 +222,7 @@
     &quot;git-widget-placeholder&quot;: &quot;feature/hadeth-module&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_directory_selection&quot;: &quot;C:/Users/Mariam/AndroidStudioProjects/Islami/app/src/main/res/drawable-mdpi&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Mariam/AndroidStudioProjects/Islami/app/src/main/assets&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Mariam/AndroidStudioProjects/Islami/app/src/main/res/layout&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -221,8 +233,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Mariam\AndroidStudioProjects\Islami\app\src\main\assets" />
       <recent name="C:\Users\Mariam\AndroidStudioProjects\Islami\app\src\main\res\layout" />
+      <recent name="C:\Users\Mariam\AndroidStudioProjects\Islami\app\src\main\assets" />
       <recent name="C:\Users\Mariam\AndroidStudioProjects\Islami\app\src\main\res\drawable-mdpi" />
       <recent name="C:\Users\Mariam\AndroidStudioProjects\Islami\app\src\main\res" />
       <recent name="C:\Users\Mariam\AndroidStudioProjects\Islami\app\src\main\res\font" />
@@ -243,6 +255,9 @@
       <recent name="com.example.islami.ui.home" />
       <recent name="com.example.islami.ui.home.hadeth" />
       <recent name="com.example.islami.ui.splash" />
+    </key>
+    <key name="android.template.986920183">
+      <recent name="com.example.islami.ui.hadethDeatails" />
     </key>
   </component>
   <component name="RunManager">
@@ -330,7 +345,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724600020593</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat : hadeth Fragment">
+      <option name="closed" value="true" />
+      <created>1724622133251</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1724622133251</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -346,7 +369,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: quran details &#10;feat : splash&#10;feat: home screen" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: quran details &#10;feat : splash&#10;feat: home screen" />
+    <MESSAGE value="feat : hadeth Fragment" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat : hadeth Fragment" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

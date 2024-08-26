@@ -1,11 +1,13 @@
 package com.example.islami.ui.home.hadeth
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.example.islami.databinding.FragmentHadethBinding
+import com.example.islami.ui.hadethDeatails.HadethDetailsActivity
 
 class HadethFragment : Fragment() {
 
@@ -50,7 +52,18 @@ class HadethFragment : Fragment() {
 
     private fun bindingHadethList(allHadethList: MutableList<Hadeth>) {
         val adapter = HadethListeAdapter(allHadethList)
+        adapter.onItemClickListener = HadethListeAdapter.OnItemClickListener { position, hadeth ->
+            startHadethDetailsActivity(hadeth);
+
+        }
         binding.chapterRv.adapter = adapter
+
+    }
+
+    private fun startHadethDetailsActivity(hadeth: Hadeth) {
+        val intent = Intent(activity, HadethDetailsActivity::class.java)
+        intent.putExtra("hadeth", hadeth)
+        startActivity(intent)
 
     }
 
