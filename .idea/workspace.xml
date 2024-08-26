@@ -10,6 +10,11 @@
           <theme>@style/Theme.Islami</theme>
         </config>
       </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_hadeth_details.xml">
+        <config>
+          <theme>@style/Theme.Islami</theme>
+        </config>
+      </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml">
         <config>
           <theme>@style/Theme.Islami</theme>
@@ -26,6 +31,11 @@
         </config>
       </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/contact_home.xml">
+        <config>
+          <theme>@style/Theme.Islami</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/content_hadeth_details.xml">
         <config>
           <theme>@style/Theme.Islami</theme>
         </config>
@@ -55,6 +65,11 @@
           <theme>@style/Theme.Islami</theme>
         </config>
       </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/item_hadeth.xml">
+        <config>
+          <theme>@style/Theme.Islami</theme>
+        </config>
+      </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/item_verse.xml">
         <config>
           <theme>@style/Theme.Islami</theme>
@@ -71,225 +86,17 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="424f49a8-c381-42c2-800b-1fc1d5a40e22" name="Changes" comment="feat: quran details &#10;feat : splash&#10;feat: home screen">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/deploymentTargetSelector.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/migrations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/example/islami/ExampleInstrumentedTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/10.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/100.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/101.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/102.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/103.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/104.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/105.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/106.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/107.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/108.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/109.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/11.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/110.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/111.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/112.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/113.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/114.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/12.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/13.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/14.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/15.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/16.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/17.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/18.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/19.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/20.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/21.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/22.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/23.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/24.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/25.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/26.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/27.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/28.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/29.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/30.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/31.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/32.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/33.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/34.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/35.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/36.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/37.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/38.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/39.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/40.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/41.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/42.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/43.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/44.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/45.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/46.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/47.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/48.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/49.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/5.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/50.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/51.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/52.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/53.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/54.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/55.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/56.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/57.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/58.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/59.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/6.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/60.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/61.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/62.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/63.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/64.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/65.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/66.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/67.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/68.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/69.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/7.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/70.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/71.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/72.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/73.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/74.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/75.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/76.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/77.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/78.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/79.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/8.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/80.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/81.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/82.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/83.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/84.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/85.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/86.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/87.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/88.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/89.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/9.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/90.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/91.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/92.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/93.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/94.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/95.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/96.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/97.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/98.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/assets/99.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/islami/ui/chapterDetails/ChapterDetailsActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/islami/ui/chapterDetails/VersesAdapter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/islami/ui/home/HomeActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/islami/ui/home/hadeth/HadethFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/islami/ui/home/quran/ChapterRecyclerAdapter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/islami/ui/home/quran/QuranFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/islami/ui/home/radio/RadioFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/islami/ui/home/tasbeh/TasbehFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/islami/ui/splash/SplashActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/color/nav_item_color.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/moshaf_gold.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/path.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/radio.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/sebha.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/moshaf_gold.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/path.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/radio.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/sebha.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/main_background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/quran_header_img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/splash.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/moshaf_gold.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/path.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/radio.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/sebha.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/moshaf_gold.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/path.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/radio.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/sebha.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/moshaf_gold.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/path.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/radio.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/sebha.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/font-ar/main_bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/font-ar/main_medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/font-ar/main_regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/font-ar/main_semibold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/main_bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/main_medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/main_regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/main_semibold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_chapter_details.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/contact_chapter_detail.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/contact_home.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_hadeth.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_quran.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_radio.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_tasbeh.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_chapter.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_verse.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/menu/home_navigation_menu.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/radio.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/radio@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/radio@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/radio@4x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values-ar/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values-night/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/example/islami/ExampleUnitTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/libs.versions.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+    <list default="true" id="424f49a8-c381-42c2-800b-1fc1d5a40e22" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/islami/ui/hadethDeatails/HadethDetailsActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_hadeth_details.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_hadeth_details.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/islami/ui/home/hadeth/Hadeth.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/islami/ui/home/hadeth/Hadeth.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/islami/ui/home/hadeth/HadethFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/islami/ui/home/hadeth/HadethFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/islami/ui/home/hadeth/HadethListeAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/islami/ui/home/hadeth/HadethListeAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -348,14 +155,45 @@
       <list>
         <option value="resourceFile" />
         <option value="valueResourceFile" />
-        <option value="layoutResourceFile" />
+        <option value="Kotlin Data Class" />
         <option value="Kotlin Class" />
+        <option value="layoutResourceFile" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="main" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="develop" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;mariamelgandour&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/mariamelgandour/islami.git&quot;,
+    &quot;accountId&quot;: &quot;084dc5bd-829c-48de-a88e-2b3f671f4914&quot;
+  }
+}</component>
   <component name="ProblemsViewState">
     <hideBySeverity>
       <option value="300" />
@@ -371,35 +209,35 @@
     <option name="autoscrollFromSource" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Android App.app.executor": "Run",
-    "ResourceManagerPrefKey.ResourceType": "DRAWABLE",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "com.google.services.firebase.aqiPopupShown": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_directory_selection": "C:/Users/Mariam/AndroidStudioProjects/Islami/app/src/main/res/drawable-mdpi",
-    "last_opened_file_path": "C:/Users/Mariam/AndroidStudioProjects/Islami",
-    "settings.editor.selected.configurable": "project.propVCSSupport.CommitDialog"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Android App.app.executor&quot;: &quot;Run&quot;,
+    &quot;ResourceManagerPrefKey.ResourceType&quot;: &quot;DRAWABLE&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;com.google.services.firebase.aqiPopupShown&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/hadeth-module&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/Mariam/AndroidStudioProjects/Islami/app/src/main/res/drawable-mdpi&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Mariam/AndroidStudioProjects/Islami/app/src/main/res/layout&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   },
-  "keyToStringList": {
-    "kotlin-gradle-user-dirs": [
-      "C:\\Users\\Mariam\\.gradle"
+  &quot;keyToStringList&quot;: {
+    &quot;kotlin-gradle-user-dirs&quot;: [
+      &quot;C:\\Users\\Mariam\\.gradle&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Mariam\AndroidStudioProjects\Islami\app\src\main\res\layout" />
       <recent name="C:\Users\Mariam\AndroidStudioProjects\Islami\app\src\main\assets" />
       <recent name="C:\Users\Mariam\AndroidStudioProjects\Islami\app\src\main\res\drawable-mdpi" />
       <recent name="C:\Users\Mariam\AndroidStudioProjects\Islami\app\src\main\res" />
       <recent name="C:\Users\Mariam\AndroidStudioProjects\Islami\app\src\main\res\font" />
-      <recent name="C:\Users\Mariam\AndroidStudioProjects\Islami\app\src" />
     </key>
     <key name="android.template.-151688593">
       <recent name="com.example.islami.ui.home" />
@@ -417,6 +255,9 @@
       <recent name="com.example.islami.ui.home" />
       <recent name="com.example.islami.ui.home.hadeth" />
       <recent name="com.example.islami.ui.splash" />
+    </key>
+    <key name="android.template.986920183">
+      <recent name="com.example.islami.ui.hadethDeatails" />
     </key>
   </component>
   <component name="RunManager">
@@ -496,6 +337,23 @@
       <option name="presentableId" value="Default" />
       <updated>1724111689611</updated>
     </task>
+    <task id="LOCAL-00001" summary="feat: quran details &#10;feat : splash&#10;feat: home screen">
+      <option name="closed" value="true" />
+      <created>1724600020593</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1724600020593</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat : hadeth Fragment">
+      <option name="closed" value="true" />
+      <created>1724622133251</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1724622133251</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -511,7 +369,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: quran details &#10;feat : splash&#10;feat: home screen" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: quran details &#10;feat : splash&#10;feat: home screen" />
+    <MESSAGE value="feat : hadeth Fragment" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat : hadeth Fragment" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
