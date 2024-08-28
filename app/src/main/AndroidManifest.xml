@@ -13,6 +13,12 @@
         android:theme="@style/Theme.Islami"
         tools:targetApi="31">
         <activity
+            android:name=".ui.sebhaDetails.SebhaDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.hadethDeatails.HadethDetailsActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.chapterDetails.ChapterDetailsActivity"
             android:exported="false" />
         <activity
