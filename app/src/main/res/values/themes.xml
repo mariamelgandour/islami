@@ -30,4 +30,25 @@
         <item name="android:textColor">@color/black_title</item>
         <item name="font">@font/main_regular</item>
     </style>
+
+    <style name="sebhaRegular">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black_title</item>
+        <item name="font">@font/main_regular</item>
+    </style>
+
+    <style name="sebhacounter">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black_title</item>
+        <item name="font">@font/main_regular</item>
+    </style>
+
+    <style name="sebha">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="font">@font/main_regular</item>
+    </style>
 </resources>
